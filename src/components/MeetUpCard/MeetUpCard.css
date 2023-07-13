@@ -1,0 +1,31 @@
+.card-container {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.2;
+    text-decoration: none;
+    color: #0a0a0a;
+}
+
+.card-container > img {
+    width: 200px;
+    height: 160px;
+    border-radius: 8px;
+}
+
+.event-type {
+    position: relative;
+    bottom: 157px;
+    left: 10px;
+
+    font-size: 12px;
+    width: fit-content;
+    background-color: #fafaf9;
+}
+
+.meetup-title {
+    font-weight: bold;
+}
+
+.meeetup-time {
+    font-size: 12px;
+}

@@ -1,0 +1,42 @@
+nav {
+    margin: 10px 20px;
+    padding-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid grey;
+}
+
+nav > h1 {
+    color: #ef4444;
+}
+
+nav > input {
+    border: none;
+    padding: 10px;
+    background-color: #fafafa;
+    margin-right: 10px;
+    
+}
+
+.search-results{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    height: 130px;
+    position: absolute;
+    overflow-y: scroll;
+    background-color: grey;
+}
+
+.search-item {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    width: 170px;
+}
+.search-item > img {
+    width: 50px;
+    height: 50px;
+    
+}
